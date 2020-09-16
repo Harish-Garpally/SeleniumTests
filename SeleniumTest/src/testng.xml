@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Sessions Test Automation Suite">
+	<test name="Different Testing features in TestNG">
+
+		<parameter name="Browser" value="Chrome" />
+		<parameter name="url" value="https://login.yahoo.com/" />
+		<parameter name="EmailID" value="harish@yahoo.com" />
+
+		<classes>
+
+			<class name="com.Testng.ParametersTest" />
+			<class name="com.Testng.Googletitletest" />
+			<class name="com.Testng.ParametersTest" />
+			<class name="com.Testng.GoogleTest" />
+			<class name="com.Testng.Invocationcounttest" />
+			<class name="com.Testng.Testng1" />
+			<class name="com.Testng.Testngfeatures" />
+
+		</classes>
+	</test>
+</suite> 
